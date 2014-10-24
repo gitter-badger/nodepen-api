@@ -1,0 +1,34 @@
+{
+  "name": "nodepen",
+  "version": "0.0.1",
+  "description": "An experimental CodePen API",
+  "main": "./lib/nodepen.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mallendeo/nodepen.git"
+  },
+  "keywords": [
+    "nodepen",
+    "codepen",
+    "api"
+  ],
+  "author": "Mauricio Allende",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mallendeo/nodepen/issues"
+  },
+  "homepage": "https://github.com/mallendeo/nodepen",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "q": "^1.0.1",
+    "request": "^2.45.0",
+    "tough-cookie": "^0.12.1",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "should": "^4.1.0"
+  }
+}
