@@ -23,7 +23,7 @@ $ npm install nodepen-api --save
 ### Basic usage
 
 ```javascript
-var Nodepen = require('nodepen');
+var Nodepen = require('nodepen-api');
 
 // Your username and the _codepen_session cookie.
 // This is for now, until have a login function.
@@ -43,7 +43,7 @@ All functions returns a promise, so you have to use .then() to retrieve data
 var user = np.getUserData('mallendeo');
 
 user.then(function(data) {
-	// outputs an object with user data
+	// returns an object with user data
 	console.log(data);
 });
 ```
@@ -54,7 +54,7 @@ user.then(function(data) {
 var activity = np.getRecentActivity();
 
 activity.then(function(data) {
-	// outputs an object with activity data
+	// returns an object with activity data
 	console.log(data);
 });
 ```
