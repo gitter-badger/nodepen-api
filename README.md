@@ -90,6 +90,7 @@ following values
   'private',
   'forked',
   'loved',
+  'following',
   'collection'
 ]
 ```
