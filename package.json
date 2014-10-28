@@ -18,9 +18,9 @@
   "author": "Mauricio Allende",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mallendeo/nodepen-git/issues"
+    "url": "https://github.com/mallendeo/nodepen-api/issues"
   },
-  "homepage": "https://github.com/mallendeo/nodepen-git",
+  "homepage": "https://github.com/mallendeo/nodepen-api",
   "dependencies": {
     "cheerio": "^0.17.0",
     "q": "^1.0.1",
