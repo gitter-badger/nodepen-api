@@ -1,5 +1,6 @@
 nodepen
 =======
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/mallendeo/nodepen-api?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 An experimental CodePen API built with node
 
